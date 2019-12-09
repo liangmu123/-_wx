@@ -1,0 +1,50 @@
+.applyservice .el-input__inner{
+    border:0 !important;
+    background-color:transparent;
+    padding-left:0.9rem !important;
+}
+.applyservice .el-input__suffix{
+    color:#888 !important;
+}
+.applyservice input::-webkit-input-placeholder {
+    color: #888888;
+    font-size: 1.4rem;
+}
+.applyvolunteer .el-input__inner{
+    border:0 !important;
+    background-color:transparent;
+    padding-left:0.9rem !important;
+}
+.applyvolunteer .el-input__suffix{
+    color:#888 !important;
+}
+.applyvolunteer input::-webkit-input-placeholder {
+    color: #888888;
+    font-size: 1.4rem;
+}
+.applyvolunteer input::-webkit-input-placeholder {
+    color: #888888;
+    font-size: 1.4rem;
+}
+.takephotos input::-webkit-input-placeholder {
+    color: #888888;
+    font-size: 1.4rem;
+}
+.el-rate__icon{
+    font-size:3rem !important;
+}
+.el-rate{
+    height:3rem !important;
+}
+.el-loading-spinner .path{
+    stroke:red !important;
+}
+.el-loading-spinner .el-loading-text{
+    color:red !important;
+}
+.servicedetails .el-button:active{
+    border:none;
+}
+.supermarket button:active,.supermarketDeatils button:active{
+    border:1px solid red !important;
+}

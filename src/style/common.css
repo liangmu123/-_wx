@@ -1,0 +1,57 @@
+/* 基础样式 */
+*{
+    box-sizing: border-box;
+}
+body,p,h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd{
+    padding:0;
+    margin:0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    font-size:62.5%;
+}
+.navigation_bottom{
+    padding-bottom:6rem !important;
+}
+/* 清除浮动 */
+.clearfix::after{
+    content:'';
+    height:0;
+    display:block;
+    clear: both;
+}
+/* 单行文本溢出隐藏 */
+.textoverflow{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+[v-cloak]{
+    display:none
+}
+.marginBottom_1rem{
+    margin-bottom:1rem;
+}
+.fontSize_1_8rem{
+    font-size:1.8rem;
+}
+.fontSize_1_6rem{
+    font-size:1.6rem;
+}
+.fontSize_1_4rem{
+    font-size:1.4rem;
+}
+.fontSize_1_2rem{
+    font-size:1.2rem;
+}
+textarea{
+    resize:none !important;
+}
+.ysp_textarea .el-textarea__inner:focus{
+    border-color:#F56C6C !important;
+}

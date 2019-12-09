@@ -1,0 +1,137 @@
+.informationlist .yd-tab-nav-item,
+.orderlist .yd-tab-nav-item,
+.servicelist .yd-tab-nav-item,
+.interactive .yd-tab-nav-item{
+    color:#303030 !important;
+    font-size:1.6rem !important;
+    line-height:5rem !important;
+}
+.informationlist .yd-tab-nav-item.yd-tab-active,
+.orderlist .yd-tab-nav-item.yd-tab-active,
+.servicelist .yd-tab-nav-item.yd-tab-active,
+.interactive .yd-tab-nav-item.yd-tab-active{
+    color:#108EE9 !important;
+    border-bottom:2px solid #108EE9;
+}
+.informationlist .yd-tab-nav .yd-tab-active:before,
+.orderlist .yd-tab-nav .yd-tab-active:before,
+.servicelist .yd-tab-nav .yd-tab-active:before,
+.interactive .yd-tab-nav .yd-tab-active:before{
+    height:0;
+}
+.takephotos .yd-textarea>textarea{
+    height:10rem !important;
+}
+.takephotos .yd-textarea textarea,.yd-textarea .yd-textarea-counter{
+    font-size:1.4rem !important;
+}
+.takephotos .el-input__inner{
+    border:1px solid #CCC !important;
+    margin-bottom:1.5rem;
+    padding-left:0.6rem;
+}
+.takephotos .yd-cell{
+    padding:0.5rem;
+    border:1px solid #CCC;
+    border-radius:5px;
+}
+.applyvolunteer .yd-cell,
+.applyservice .yd-cell{
+    background-color:transparent;
+}
+.applyvolunteer .yd-cell .yd-input input,
+.applyservice .yd-cell .yd-input input{
+    height:4rem;
+    font-size:1.6rem;
+}
+.applyvolunteer .yd-cell .yd-input span,.applyvolunteer .yd-cell .yd-input span:after,
+.applyservice .yd-cell .yd-input span,.applyservice .yd-cell .yd-input span:after{
+    font-size:1.6rem;
+}
+.applyvolunteer .yd-cell .yd-cell-left>span,
+.applyservice .yd-cell .yd-cell-left>span{
+    width:4rem;
+}
+.applyvolunteer .yd-cell .yd-cell-left>span>img,
+.applyservice .yd-cell .yd-cell-left>span>img{
+    width:1.5rem;
+    display:block;
+}
+.applyvolunteer .yd-cell .yd-cell-item{
+    margin-bottom:2rem;
+    border-bottom:1px solid #D8D8D8;
+}
+.applyvolunteer .yd-input-clear,
+.applyservice .yd-input-clear{
+    font-size:1.6rem;
+    height:1.6rem !important;
+}
+.applyvolunteer .yd-input input,
+.applyservice .yd-input input{
+    color:#888
+}
+.applyservice .yd-cell .yd-cell-item:not(.textarea){
+    margin-bottom:0.5rem;
+    border-bottom:1px solid #D8D8D8;
+}
+.applyservice .yd-textarea{
+    padding:1rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.applyservice .yd-textarea>textarea{
+    height:10rem !important;
+}
+.applyservice .yd-textarea textarea,.yd-textarea .yd-textarea-counter{
+    font-size:1.4rem !important;
+}
+.applyservice .time .yd-cell-right{
+    justify-content:flex-start !important;
+    flex:auto !important;
+}
+.applyservice .time .yd-flexbox.yd-flexbox-horizontal div{
+    font-size:1.6rem !important;
+}
+.applyservice .yd-cell .yd-cell-item.time{
+    margin-bottom:0.5rem;
+    border:0;
+}
+.applyservice .time .yd-cell-left,.applyservice .time .yd-flexbox-item.yd-flexbox-item-center{
+    border-bottom:1px solid #D8D8D8;
+}
+.yd-input-clear:after{
+    font-size:1.4rem !important;
+}
+.servicedetails .yd-textarea{
+    padding:1rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border-bottom:1px solid #D8D8D8;
+}
+.servicedetails .yd-textarea>textarea{
+    height:8rem !important;
+}
+.servicedetails .yd-textarea textarea,.yd-textarea .yd-textarea-counter{
+    font-size:1.4rem !important;
+}
+.yd-tabbar.yd-tabbar-fixed{
+    border-top:1px solid #eee;
+}
+.yd-list-donetip{
+    font-size:1.6rem !important;
+}
+.yd-btn{
+    height:38px !important;
+    width:100%;
+    font-size:1.2rem !important;
+}
+.yd-dialog-white-mask{
+    z-index:3000 !important;
+}
+.yd-confirm-hd{
+    text-align:center !important;
+}
+
+.yd-rollnotice-item{
+    font-size:1.8rem;
+}
